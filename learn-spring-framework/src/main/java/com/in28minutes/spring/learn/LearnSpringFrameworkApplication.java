@@ -15,4 +15,5 @@ public class LearnSpringFrameworkApplication {
 		GameRunner runner = new GameRunner(game);
 		runner.run();
 	}
+
 }

@@ -1,0 +1,51 @@
+# IntelliJ IDEA specific files
+.idea/
+*.iml
+*.iws
+out/
+
+# Mac OS specific files
+.DS_Store
+
+# Build directories
+target/
+build/
+
+# Logs
+logs/
+*.log
+
+# Spring Boot specific files
+*.war
+*.jar
+
+# Gradle specific files
+.gradle/
+/build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Maven specific files
+.mvn/
+**/target/
+
+# Dependency directories
+node_modules/
+
+# Environment variables and secret files
+.env
+.env.local
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+
+# OS-specific files
+Thumbs.db
+
+# Lombok generated files
+.lombok/
+
+# IDE generated files
+*.class
+*.hprof

@@ -26,6 +26,7 @@
         <module>limits-service</module>
         <module>restful-web-service</module>
         <module>learn-spring-boot</module>
+        <module>junit-in-5-steps</module>
     </modules>
 
     <properties>

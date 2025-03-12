@@ -25,6 +25,7 @@
         <module>learn-spring-framework</module>
         <module>limits-service</module>
         <module>restful-web-service</module>
+        <module>learn-spring-boot</module>
     </modules>
 
     <properties>

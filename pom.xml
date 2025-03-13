@@ -26,6 +26,8 @@
         <module>limits-service</module>
         <module>restful-web-service</module>
         <module>learn-spring-boot</module>
+        <module>mockito-demo</module>
+        <module>learn-maven</module>
     </modules>
 
     <properties>

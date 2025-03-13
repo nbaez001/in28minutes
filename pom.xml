@@ -28,6 +28,7 @@
         <module>learn-spring-boot</module>
         <module>mockito-demo</module>
         <module>learn-maven</module>
+        <module>junit-in-5-steps</module>
     </modules>
 
     <properties>

@@ -29,6 +29,7 @@
         <module>mockito-demo</module>
         <module>learn-maven</module>
         <module>junit-in-5-steps</module>
+        <module>learn-jpa-hibernate</module>
     </modules>
 
     <properties>

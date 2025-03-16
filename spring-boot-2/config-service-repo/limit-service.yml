@@ -1,0 +1,10 @@
+limits-service:
+  minimun: 8
+  maximun: 8888
+management:
+  security:
+    enable: false
+  endpoints:
+    web:
+      exposure:
+        include: "*"

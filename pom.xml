@@ -17,20 +17,22 @@
     </parent>
 
     <modules>
-        <module>config-service</module>
-        <module>currency-conversion-service</module>
-        <module>currency-exchange-service</module>
-        <module>discovery-service</module>
-        <module>gateway-service</module>
-        <module>learn-spring-framework</module>
-        <module>limits-service</module>
-        <module>restful-web-service</module>
-        <module>learn-spring-boot</module>
-        <module>mockito-demo</module>
-        <module>learn-maven</module>
-        <module>junit-in-5-steps</module>
-        <module>learn-jpa-hibernate</module>
-        <module>functional-programming</module>
+        <module>spring-boot-3/config-service</module>
+        <module>spring-boot-3/currency-conversion-service</module>
+        <module>spring-boot-3/currency-exchange-service</module>
+        <module>spring-boot-3/discovery-service</module>
+        <module>spring-boot-3/gateway-service</module>
+        <module>spring-boot-3/learn-spring-framework</module>
+        <module>spring-boot-3/limits-service</module>
+        <module>spring-boot-3/restful-web-service</module>
+        <module>spring-boot-3/learn-spring-boot</module>
+        <module>spring-boot-3/mockito-demo</module>
+        <module>spring-boot-3/learn-maven</module>
+        <module>spring-boot-3/junit-in-5-steps</module>
+        <module>spring-boot-3/learn-jpa-hibernate</module>
+        <module>spring-boot-3/functional-programming</module>
+
+        <module>aws/spring-boot-web-application-h2</module>
     </modules>
 
     <properties>

@@ -1,0 +1,21 @@
+branch-defaults:
+  default:
+    environment: rest-api-in28minutes-env-qa
+environment-defaults:
+  rest-api-in28minutes-env-qa:
+    branch: null
+    repository: null
+global:
+  application_name: rest-api-in28minutes
+  default_ec2_keyname: null
+  default_platform: Corretto 8 running on 64bit Amazon Linux 2
+  default_region: us-east-2
+  include_git_submodules: true
+  instance_profile: null
+  platform_name: null
+  platform_version: null
+  profile: eb-cli
+  sc: null
+  workspace_type: Application
+deploy:
+  artifact: target/todo-rest-api-h2-eb-cli-0.0.1-SNAPSHOT.jar

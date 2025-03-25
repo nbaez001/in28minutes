@@ -71,3 +71,4 @@ out/
 .vscode/
 
 node_modules/
+aws/todo-rest-api-h2-eb-cli/.elasticbeanstalk/logs/

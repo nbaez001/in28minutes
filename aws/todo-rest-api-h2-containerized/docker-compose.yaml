@@ -1,0 +1,21 @@
+version: "3"
+
+services:
+  mysql:
+    image: mysql:5.7
+    environment:
+      MYSQL_ROOT_PASSWORD: "1234"
+      MYSQL_USER: "todos-user"
+      MYSQL_PASSWORD: "dummytodos"
+      MYSQL_DATABASE: "todos"
+    ports:
+      - "3306:3306"
+
+  todo-rest-api:
+    image: nbaez001/todo-rest-api-h2-containerized:1.1.0.RELEASE
+    depends_on:
+      - mysql
+    ports:
+      - "5000:5000"
+    links:
+      - mysql

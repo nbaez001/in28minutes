@@ -9,8 +9,8 @@
         <relativePath/>
     </parent>
     <groupId>com.in28minutes.rest.webservices</groupId>
-    <artifactId>todo-rest-api-h2-containerized</artifactId>
-    <version>1.1.0.RELEASE</version>
+    <artifactId>todo-rest-api-h2-eb-cli</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
     <name>todo-rest-api-h2</name>
     <description>Demo project for Spring Boot</description>
 
@@ -33,11 +33,7 @@
         <dependency>
             <groupId>com.h2database</groupId>
             <artifactId>h2</artifactId>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>mysql</groupId>
-            <artifactId>mysql-connector-java</artifactId>
+            <scope>runtime</scope>
         </dependency>
     </dependencies>
 
@@ -46,25 +42,6 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
-            <plugin>
-                <groupId>com.spotify</groupId>
-                <artifactId>dockerfile-maven-plugin</artifactId>
-                <version>1.4.10</version>
-                <executions>
-                    <execution>
-                        <id>default</id>
-                        <goals>
-                            <goal>build</goal>
-                            <!-- <goal>push</goal> -->
-                        </goals>
-                    </execution>
-                </executions>
-                <configuration>
-                    <repository>nbaez001/${project.artifactId}</repository>
-                    <tag>${project.version}</tag>
-                    <skipDockerInfo>true</skipDockerInfo>
-                </configuration>
             </plugin>
         </plugins>
     </build>
